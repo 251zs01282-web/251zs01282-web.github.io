@@ -166,3 +166,24 @@ iframe {
   display: block;
   width: 100%;
 }
+
+.profile-wrapper {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--theme-color);
+  box-shadow: 0 0 20px rgba(0, 160, 160, 0.4);
+  transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 160, 160, 0.8);
+  border-color: #fff;
+}
